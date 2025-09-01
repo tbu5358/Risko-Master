@@ -1,0 +1,173 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Modern Premium Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+@layer base {
+  :root {
+    --background: 0 0% 0%;
+    --foreground: 180 100% 94%;
+    --card: 210 50% 8%;
+    --card-foreground: 180 100% 94%;
+    --popover: 210 50% 8%;
+    --popover-foreground: 180 100% 94%;
+    --primary: 180 100% 50%;
+    --primary-foreground: 0 0% 0%;
+    --secondary: 210 50% 8%;
+    --secondary-foreground: 180 100% 94%;
+    --muted: 210 50% 12%;
+    --muted-foreground: 180 50% 70%;
+    --accent: 180 100% 50%;
+    --accent-foreground: 0 0% 0%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 180 100% 50%;
+    --input: 210 50% 12%;
+    --ring: 180 100% 50%;
+    --radius: 0.5rem;
+
+    /* Electric Blue + Burnt Orange + Metallic Palette */
+    --midnight-blue: 210 50% 8%;
+    --midnight-dark: 210 50% 5%;
+    --cyan-glow: 195 100% 60%; /* Brighter electric blue */
+    --neon-blue: 195 100% 70%; /* Even brighter blue */
+    --soft-blue-grey: 220 20% 95%; /* More metallic white */
+    --golden: 15 100% 60%; /* Burnt orange to match background */
+    --pure-white: 0 0% 100%;
+    --deep-black: 0 0% 0%;
+    --electric-blue: 195 100% 60%; /* Primary electric blue */
+    --burnt-orange: 15 100% 60%; /* Secondary burnt orange */
+    --metallic-silver: 220 20% 95%; /* Metallic text color */
+    --premium-gold: 45 100% 60%; /* Gold for premium elements */
+
+    /* Premium Gradients */
+    --gradient-title: linear-gradient(135deg, hsl(195 100% 60%), hsl(15 100% 60%));
+    --gradient-mystical: linear-gradient(135deg, hsl(210 50% 8%), hsl(195 100% 15%));
+    --gradient-button: linear-gradient(135deg, hsl(195 100% 55%), hsl(15 100% 55%));
+
+    /* Subtle Glow Effects */
+    --glow-ambient: 0 0 30px hsl(195 100% 60% / 0.2);
+    --glow-text: 0 0 20px hsl(195 100% 60% / 0.3);
+    --glow-button: 0 0 15px hsl(195 100% 60% / 0.4);
+
+    /* Sidebar */
+    --sidebar-background: 210 50% 8%;
+    --sidebar-foreground: 180 100% 94%;
+    --sidebar-primary: 180 100% 50%;
+    --sidebar-primary-foreground: 0 0% 0%;
+    --sidebar-accent: 210 50% 12%;
+    --sidebar-accent-foreground: 180 100% 94%;
+    --sidebar-border: 180 100% 50%;
+    --sidebar-ring: 180 100% 50%;
+  }
+
+  .dark {
+    --background: 0 0% 0%;
+    --foreground: 180 100% 94%;
+    --card: 210 50% 8%;
+    --card-foreground: 180 100% 94%;
+    --popover: 210 50% 8%;
+    --popover-foreground: 180 100% 94%;
+    --primary: 180 100% 50%;
+    --primary-foreground: 0 0% 0%;
+    --secondary: 210 50% 8%;
+    --secondary-foreground: 180 100% 94%;
+    --muted: 210 50% 12%;
+    --muted-foreground: 180 50% 70%;
+    --accent: 180 100% 50%;
+    --accent-foreground: 0 0% 0%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 180 100% 50%;
+    --input: 210 50% 12%;
+    --ring: 180 100% 50%;
+
+    /* Sidebar */
+    --sidebar-background: 210 50% 8%;
+    --sidebar-foreground: 180 100% 94%;
+    --sidebar-primary: 180 100% 50%;
+    --sidebar-primary-foreground: 0 0% 0%;
+    --sidebar-accent: 210 50% 12%;
+    --sidebar-accent-foreground: 180 100% 94%;
+    --sidebar-border: 180 100% 50%;
+    --sidebar-ring: 180 100% 50%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+/* REM-based global scaling for embedded mode (keeps desktop layout, shrinks typography/spacing) */
+html.embedded-root {
+  font-size: 87.5%; /* 14px base instead of 16px */
+}
+@media (max-height: 760px) { html.embedded-root { font-size: 81.25%; } }  /* 13px */
+@media (max-height: 680px) { html.embedded-root { font-size: 75%; } }      /* 12px */
+@media (max-height: 620px) { html.embedded-root { font-size: 68.75%; } }   /* 11px */
+@media (max-height: 560px) { html.embedded-root { font-size: 62.5%; } }    /* 10px */
+@media (max-height: 500px) { html.embedded-root { font-size: 56.25%; } }   /* 9px  */
+
+/* Embedded (iframe) layout adjustments */
+body.embedded {
+  overflow: hidden;
+}
+
+/* Avoid tall min-heights when embedded */
+body.embedded .min-h-screen { min-height: auto; }
+body.embedded .h-screen { height: auto; }
+
+/* Cap scrollable areas to iframe height */
+body.embedded .overflow-y-auto { max-height: calc(100% - 2rem); }
+
+/* Prefer typography/spacing scaling over transform-based scaling to preserve aspect and crispness */
+body.embedded #root { height: 100%; }
+
+@keyframes slide-in {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slide-up {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes title-glow {
+  0%, 100% { filter: drop-shadow(0 0 10px hsl(180 100% 50% / 0.5)); }
+  50% { filter: drop-shadow(0 0 20px hsl(180 100% 50% / 0.8)); }
+}
+
+@keyframes mystical-glow {
+  from { box-shadow: 0 0 20px hsl(180 100% 50% / 0.3); }
+  to { box-shadow: 0 0 30px hsl(180 100% 50% / 0.6); }
+}

@@ -1,0 +1,7 @@
+INSERT INTO users (id, username, roles)
+VALUES ('00000000-0000-0000-0000-000000000001', 'house', '{house,admin}')
+ON CONFLICT (id) DO NOTHING;
+
+INSERT INTO wallets (user_id, balance)
+VALUES ('00000000-0000-0000-0000-000000000001', 0)
+ON CONFLICT (user_id) DO NOTHING;

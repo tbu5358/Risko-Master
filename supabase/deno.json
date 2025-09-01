@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "lib": ["deno.window", "dom"],
+    "strict": false,
+    "noImplicitAny": false,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "skipLibCheck": true,
+    "moduleResolution": "bundler"
+  },
+  "imports": {
+    "std/": "https://deno.land/std@0.168.0/",
+    "supabase/": "https://esm.sh/@supabase/supabase-js@2/"
+  },
+  "tasks": {
+    "dev": "supabase functions serve"
+  },
+  "lint": {
+    "rules": {
+      "tags": ["recommended"]
+    }
+  },
+  "fmt": {
+    "files": {
+      "include": ["functions/"]
+    }
+  }
+}

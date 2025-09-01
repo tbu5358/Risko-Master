@@ -1,0 +1,23 @@
+{
+  "name": "risko_master",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "dev:browser": "npm --prefix apps/browser run dev",
+    "dev:speedchess:game": "npm --prefix apps/speedchess/speed-chess-game run dev",
+    "dev:snake:game": "npm --prefix apps/snakeroyale/snake-royale-game run dev",
+    "dev:surio:game": "npm --prefix apps/surio/suroi-game/client run dev",
+    "dev:speedchess:service": "npm --prefix apps/speedchess/speed-chess-service run dev",
+    "dev:snakeroyale:service": "npm --prefix apps/snakeroyale/snake-royale-service run dev",
+    "dev:snakeroyale:realtime": "npm --prefix apps/snakeroyale/snake-royale-service run dev:ws",
+    "dev:surio:service": "npm --prefix apps/surio/surio-service run dev",
+    "dev:services": "concurrently -c \"magenta,cyan,gray,blue\" -n speedchess-svc,snake-svc,snake-rt,surio-svc \"npm run dev:speedchess:service\" \"npm run dev:snakeroyale:service\" \"npm run dev:snakeroyale:realtime\" \"npm run dev:surio:service\"",
+    "dev:games": "concurrently -c \"yellow,green,blue,red,magenta\" -n browser,speedchess,snake,lms,surio \"npm run dev:browser\" \"npm run dev:speedchess:game\" \"npm run dev:snake:game\" \"npm run dev:surio:game\"",
+    "dev:all": "concurrently -c \"yellow,green,blue,red,magenta,cyan,gray,blue,magenta\" -n browser,speedchess-game,snake-game,lms-game,speedchess-svc,snake-svc,snake-rt,surio-svc,surio-game \"npm run dev:browser\" \"npm run dev:speedchess:game\" \"npm run dev:snake:game\" \"npm run dev:speedchess:service\" \"npm run dev:snakeroyale:service\" \"npm run dev:snakeroyale:realtime\" \"npm run dev:surio:service\" \"npm run dev:surio:game\"",
+    "dev": "npm run dev:all"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
+

@@ -1,0 +1,41 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Bun/npm/yarn/pnpm locks (keep repo-level locks if needed)
+bun.lockb
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+
+# Logs
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+# Build outputs
+build/
+dist/
+.next/
+out/
+.coverage/
+coverage/
+.turbo/
+.cache/
+
+# Editor/OS
+.vscode/
+.idea/
+.DS_Store
+
+# Env
+.env
+.env.*
+!.env.example
+
+# Supabase local state (keep tracked supabase/ directory)
+.supabase/
+
+# Misc
+*.local

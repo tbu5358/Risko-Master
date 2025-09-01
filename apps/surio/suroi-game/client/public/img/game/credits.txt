@@ -1,0 +1,424 @@
+Skins:
+  Forest Camo body: Image by flatart on Freepik: https://www.freepik.com/free-vector/army-camouflage-vector-seamless-pattern-texture-military-camouflage-repeats-seamless-army-design-vector-background_34294124.htm
+  Loadout & game skins: Asultra, ScaredPenguinXXL, Pirelli, Slapdap, EndermanKing, Arman, hasanger
+Loot:
+  Level 1 Vest (Loot Image): Slapdap, modified by Leia, Skullboi249 and hasanger
+  Level 2 Vest (Loot Image): Slapdap, modified by Leia, Skullboi249 and hasanger
+  Level 3 Vest (Loot Image): Slapdap, modified by Leia, Skullboi249 and hasanger
+
+  Level 1 Helmet (Loot Image): Slapdap, modified by Skullboi249 and hasanger
+  Level 1 Helmet (World Image): Slapdap, modified by Leia, Skullboi249 and hasanger
+
+  Level 2 Helmet (Loot Image): Slapdap, modified by Skullboi249 and hasanger
+  Level 2 Helmet (World Image): Slapdap, modified by Leia, Skullboi249 and hasanger
+
+  Level 3 Helmet (Loot Image): Slapdap, modified by Skullboi249 and hasanger
+  Level 3 Helmet (World Image): Slapdap, modified by Leia, Skullboi249 and hasanger
+
+  Power Armor/Level 4 Armor (Helmet Images, Backpack Images, Vest Loot Image): hugh jass
+
+  1x, 2x, 4x, 8x, 16x Scopes: Winter
+
+  Tablets: jchen
+  Cola: Asultra
+  Medikit: Asultra
+
+Guns:
+  ACR:
+    Loot Image: Sophie, cobby, Skullboi249
+    World Image: Winter
+    Killfeed Image: eiπ
+
+  AK-47:
+    Loot Image: eiπ, artuhr
+    World Image: Winter
+    Killfeed Image: eiπ
+
+  AKs-74u:
+    Loot Image: Wampi, Skullboi249
+    World Image: Skullboi249
+    Killfeed Image: Skullboi249
+
+  AN-94:
+    Loot Image: Skullboi249
+    World Image: Skullboi249
+    Killfeed Image: Skullboi249
+
+  ARX-160:
+    Loot Image: Sophie, Skullboi249
+    World Image: Winter
+    Killfeed Image: eiπ
+
+  AUG:
+    Loot Image: hugh jass
+    World Image: Winter
+    Killfeed Image: eiπ
+
+  Badlander:
+    Loot Image: Wampi
+    World Image: Wampi
+    Killfeed Image: Wampi
+
+  BLR 556:
+    Loot Image: Winter
+    World Image: Winter
+    Killfeed Image: Winter
+
+  CZ-600:
+    Loot Image: jchen, Skullboi249
+    World Image: Winter
+    Killfeed Image: eiπ
+
+  CZ-75A:
+    Loot Image: Emeraldneo, Skullboi249
+    World Image: Emeraldneo
+    Killfeed Image: eiπ
+
+  DEagle:
+    Loot Image: eiπ
+    World Image: Emeraldneo, Winter
+    Killfeed Image: eiπ
+
+  Death Ray:
+    Loot Image: eiπ
+    World Image: eiπ
+    Killfeed Image: eiπ
+
+  Firework Launcher:
+    Loot Image: Emeraldneo
+    World Image: Emeraldneo
+    Killfeed Image: eiπ
+
+  FN FAL:
+    Loot Image: hugh jass
+    World Image: Skullboi249
+    Killfeed Image: Skullboi249
+
+  G17 (scoped):
+    Loot Image: eiπ
+    World Image: eiπ
+    Killfeed Image: eiπ
+
+  G19:
+    Loot Image: jchen, Skullboi249
+    World Image: Emeraldneo
+    Killfeed Image: eiπ
+
+  HP-18:
+    Loot Image: eiπ, Skullboi249
+    World Image: Winter
+    Killfeed Image: eiπ
+
+  L115A1:
+    Loot Image: Winter
+    World Image: Winter
+    Killfeed Image: Winter
+
+  M1 Garand:
+    Loot Image: jchen, eiπ, Emeraldneo, Skullboi249
+    World Image: Winter
+    Killfeed Image: eiπ
+
+  M16A2:
+    Loot Image: eiπ, artuhr
+    World Image: Winter
+    Killfeed Image: eiπ
+
+  M1895:
+    Loot Image: cobby
+    World Image: Winter
+    Killfeed Image: eiπ
+
+  M3K:
+    Loot Image: Wampi
+    World Image: Wampi
+    Killfeed Image: eiπ
+
+  M590M:
+    Loot Image: Wampi
+    World Image: Wampi
+    Killfeed Image: Wampi
+
+  MCX Spear:
+    Loot Image: Sharky, artuhr
+    World Image: Winter
+    Killfeed Image: eiπ
+
+  MG36:
+    Loot Image: eiπ
+    World Image: Winter
+    Killfeed Image: eiπ
+
+  MG5:
+    Loot Image: jchen, eiπ
+    World Image: Winter
+    Killfeed Image: eiπ
+
+  MP-153:
+    Loot Image: Wampi
+    World Image: Wampi
+    Killfeed Image: Wampi
+
+  MP5k:
+    Loot Image: Winter
+    World Image: Emeraldneo, Winter
+    Killfeed Image: Winter
+
+  MPX:
+    Loot Image: Wampi
+    World Image: Wampi
+    Killfeed Image: Wampi
+
+  Micro Uzi:
+    Loot Image: Glek
+    World Image: Winter
+    Killfeed Image: eiπ
+
+  Mini-14:
+    Loot Image: vp, Emeraldneo, eiπ, Skullboi249
+    World Image: Winter
+    Killfeed Image: eiπ
+
+  Mk-18 Mjölnir:
+    Loot Image: Winter
+    World Image: Winter
+    Killfeed Image: Winter
+
+  Model 37:
+    Loot Image: Wampi
+    World Image: Winter, Skullboi249
+    Killfeed Image: Skullboi249
+
+  Model 89:
+    Loot Image: Emeraldneo, Skullboi249
+    World Image: Winter
+    Killfeed Image: eiπ
+
+  Mosin-Nagant:
+    Loot Image: eiπ
+    World Image: Winter
+    Killfeed Image: eiπ
+
+  Negev SF:
+    Loot Image: Winter
+    World Image: Winter
+    Killfeed Image: eiπ
+
+  OTs-23:
+    Loot Image: hugh jass
+    World Image: Skullboi249
+    Killfeed Image: Skullboi249
+
+  PK-61:
+    Loot Image: Winter
+    World Image: Winter
+    Killfeed Image: Winter
+
+  PP-19 Vityaz:
+    Loot Image: hpig, Skullboi249
+    World Image: Winter
+    Killfeed Image: eiπ
+
+  PSM:
+    Loot Image: Skullboi249
+    World Image: Skullboi249
+    Killfeed Image: Skullboi249
+
+  Revitalizer:
+    Loot Image: eiπ
+    World Image: eiπ
+    Killfeed Image: eiπ
+
+  RG Scout:
+    Loot Image: Winter
+    World Image: Winter
+    Killfeed Image: Winter
+
+  RPK-16:
+    Loot Image: Skullboi249
+    World Image: Skullboi249
+    Killfeed Image: Skullboi249
+
+  RPK-74:
+    Loot Image: Skullboi249
+    World Image: Skullboi249
+    Killfeed Image: Skullboi249
+
+  RSh-12:
+    Loot Image: Winter, Skullboi249
+    World Image: Winter
+    Killfeed Image: Winter
+
+  SAF-200:
+    Loot Image: eiπ, artuhr
+    World Image: Winter
+    Killfeed Image: eiπ
+
+  Seedshot:
+    Loot Image: Skullboi249
+    World Image: Skullboi249
+    Killfeed Image: Skullboi249
+
+  SKS:
+    Loot Image: Emeraldneo, Skullboi249
+    World Image: Winter
+    Killfeed Image: Winter
+
+  SR-25:
+    Loot Image: jchen, artuhr
+    World Image: Winter
+    Killfeed Image: eiπ
+
+  SVU-A:
+    Loot Image: Skullboi249, Sam
+    World Image: Skullboi249
+    Killfeed Image: Skullboi249
+
+  ShAK-12:
+    Loot Image: Winter
+    World Image: Winter
+    Killfeed Image: Skullboi249
+
+  Stevens 555:
+    Loot Image: Wampi
+    World Image: Wampi
+    Killfeed Image: Wampi
+
+  Stoner 63:
+    Loot Image: jchen, Skullboi249
+    World Image: Winter
+    Killfeed Image: eiπ
+
+  Tango 51:
+    Loot Image: Emeraldneo, Skullboi249
+    World Image: Winter
+    Killfeed Image: eiπ
+
+  USAS-12:
+    Loot Image: Wampi
+    World Image: Wampi
+    Killfeed Image: Wampi
+
+  VKS Vykhlop:
+    Loot Image: Winter
+    World Image: Winter
+    Killfeed Image: Winter
+
+  VSS Vintorez:
+    Loot Image: Emeraldneo, artuhr
+    World Image: Winter
+    Killfeed Image: eiπ
+
+  Vaccinator:
+    Loot Image: Skullboi249
+    World Image: Skullboi249
+    Killfeed Image: Skullboi249
+
+  Vector:
+    Loot Image: Wampi
+    World Image: Winter
+    Killfeed Image: eiπ
+
+  Vepr-12:
+    Loot Image: Wampi
+    World Image: Winter, Skullboi249
+    Killfeed Image: Skullboi249
+
+Melees:
+  Baseball Bat: Radians
+  HE-AP Sword: Radians
+  K-bar: Radians
+  Maul: Radians
+  Pipe Wrench: sovietnuclearfridgebomb
+
+
+Obstacles:
+  Barrel: 123OP, Asultra, hasanger
+  Barrel Residue: Dachselt, Leia, hasanger
+
+  Bush: Glek
+  Bush Particles: Asultra, Radians
+  Bush Residue: hasanger, Asultra, Radians
+  Blueberry bush: Katloo
+
+  Regular crate: hasanger, 123OP
+  Health crate: hasanger, Radians
+
+  Barrel explosion: Leia
+  Barrel explosion particles: Radians
+
+  AEGIS/Flint crates: hasanger, DogEnjoyer, 123OP
+
+  Rocks: Leia
+  Rock particles: Radians
+  Rock residue: hasanger, Radians
+  Mossy & cracked rocks: Leia, hasanger
+  Gold rock: Katloo
+
+  Oak trees: Asultra
+  Oak tree particles & residue: Radians
+  Pine tree: SquareCube
+  Pine tree particles: Radians
+  Pine tree residue: Radians, hasanger
+  Birch tree, particles, & residue: hasanger, Radians
+
+  Bed, Drawers, Couch, Chair, Table, Fridge, Walls, Door, Window, Ceramic Toilet, Garage, Washing Machine: platonthek, hasanger
+  Ducktub: Wampi
+  Stove: 1092384
+  Residues for above obstacles: platonthek
+
+  Toolbox: Katloo
+
+  Sandbags: Yeet120, Eclair
+
+  Pumpkin: RedCoder09
+
+Buildings:
+  Red House: platonthek
+  Green House: platonthek
+  Blue House: platonthek, Emeraldneo
+  Warehouse: platonthek
+  Porta Potty: Katloo, Slapdap, 1092384
+  Mobile Home: platonthek
+  Refinery: platonthek
+  Armory: platonthek
+  Port & Cargo Ship: Winter, 1092384, platonthek
+  Lighthouse: Skullboi249, platonthek
+  Tugboats: platonthek
+
+  Lodge: platonthek
+  Barn: platonthek
+  Tents: Emeraldneo
+  Breached Dam: Emeraldneo
+  Hollow Log: SquareCube
+  Tavern: TimoPro
+  (Hunted Mode) Warehouse: TimoPro
+  Sawmill: TimoPro
+  Hunted Mode Small Bridge Variant/Recolor: SquareCube
+  Carport: Katloo, TimoPro
+  Shooting Range: TimoPro
+  Docks: TimoPro
+  Hunting Stand: TimoPro
+
+Emotes:
+  Primary Artists: EndermanKing, Slapdap, Tofi38
+
+  Suroi General Chat: Astronautical
+
+Other:
+  Death Marker & Skull: hasanger
+  Bullet trails: hasanger
+  Healing item residues: Death Trap Engineer, hasanger
+  Main Logo: hasanger
+  A.E.G.I.S. Logo: Katloo
+  Flint Logo: Katloo
+  Tap Icon - "One Finger Tap Gesture Of Outlined Hand Symbol" from OnlineWebFonts: https://www.onlinewebfonts.com/icon/57341
+
+Perk Icons:
+  All harvest (except combat expert), halloween perk icons: Winter
+  Combat Expert: Skullboi249
+  Experimental Forcefield: Skullboi249
+  Hollow Points: Skullboi249
+  Thermal Goggles: Skullboi249
+  Overdrive: AnnihilatingFox
+  Loot Baron: Skullboi249

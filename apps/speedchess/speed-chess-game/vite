@@ -1,0 +1,21 @@
+
+
+  VITE v5.4.10  ready in 244 ms
+
+  ➜  Local:   http://localhost:8080/
+  ➜  Network: http://192.168.1.33:8080/
+  ➜  press h + enter to show help
+Browserslist: browsers data (caniuse-lite) is 9 months old. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+[vite:css] @import must precede all other statements (besides @charset or empty @layer)
+4  |  
+5  |  /* Modern Premium Fonts */
+6  |  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap'
+6  |  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+7  |  
+8  |  @layer base {
+^C
+
